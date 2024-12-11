@@ -1,0 +1,621 @@
+@import url('https://fonts.googleapis.com/css2?family=Garamond&display=swap');
+
+@font-face {
+    font-family: 'scanah';
+    /* Name your font family */
+    src: url('../fonts/Scanah.otf');
+    /* Locate the .ttf file within your directory*/
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+    overflow-x: block;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    /* Largura da barra de rolagem */
+    background: transparent;
+    /* Fundo da barra de rolagem */
+}
+
+.top-background {
+    background: linear-gradient(to right, #31293D, #3d40a5);
+    color: white;
+    padding: 1vw 0vw;
+    flex-wrap: wrap;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.itens-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 6vw;
+    margin-left: 7vw;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 7.5vw;
+    height: 10vh;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.logo-container img {
+    height: 8vw;
+    /* Ajuste conforme necessário */
+    margin-right: -0.5vw;
+}
+
+.brand-name {
+    font-family: 'scanah', sans-serif;
+    font-size: 2.7vw;
+    margin-left: 10px;
+}
+
+.promo-banner {
+    background-color: #6C72FF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    height: 4.1vw;
+    width: 37vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.promo-banner p {
+    font-size: 3.3vw;
+    /* Tamanho da fonte da frase */
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.venha {
+    font-size: 2.6vw;
+    margin-top: 3vh;
+
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, #31293D, #3d40a5);
+    /* Adiciona espaçamento horizontal */
+    width: 100%;
+    margin-top: -1px;
+}
+
+#faq{
+    padding-left: 0;
+}
+
+.nav img {
+    height: 65px;
+    margin-left: 2.4vh;
+}
+
+.spacer {
+    flex-grow: 1;
+    /* Cria o espaço vazio */
+}
+
+.nav a {
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 1vw;
+    font-size: 1.1vw;
+    /* Tamanho da fonte */
+}
+
+.nav a i {
+    margin-right: 8px;
+}
+
+.nav a:hover {
+    background-color: #ddd;
+    color: rgb(69, 86, 243);
+}
+
+.linha {
+    margin-top: 3.8vh;
+    background-color: #6C72FF;
+    height: 0.4vh;
+    width: 6vh;
+}
+
+#about {
+    margin-bottom: 5vw;
+}
+
+.subtitle {
+    display: flex;
+    justify-content: center;
+    color: #6C72FF;
+    font-size: 1.3vw;
+    font-weight: bold;
+}
+
+.linha-text {
+    width: 4vw;
+    margin-top: 3.8vh;
+    margin-left: 0vw;
+    background-color: #000;
+    height: 0.2vh;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.9vw;
+}
+
+.content-1 {
+    display: flex;
+    margin: 5vw;
+    justify-content: space-around;
+}
+
+.text {
+
+    font-size: 1.5vw;
+    color: #565159;
+}
+
+.content-2 {
+    display: flex;
+    margin: 5vw;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+
+}
+
+#container-text-2 {
+    padding-left: 3vw;
+}
+
+.space-between-content {
+    height: 8vh;
+}
+
+.contacts {
+    
+    background: linear-gradient(to right, #31293D, #3d40a5);
+    width: 100vw;
+    height: 35vh;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.contacts p {
+    font-size: 2.5vw;
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    margin-bottom: 0vh;
+}
+
+
+.contacts img {
+    height: 5vw;
+    width: 5vw;
+    margin-left: 7vw;
+    margin-top: 10vh;
+}
+
+.column-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12.5vw;
+}
+
+.content-3 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.content-3 img {
+    height: 23vw;
+}
+
+.linha-content-3 {
+    width: 4vw;
+    margin-top: 3.8vh;
+    background-color: #000;
+    height: 0.2vh;
+}
+
+.title-content-3 {
+
+    font-weight: bold;
+    font-size: 1.9vw;
+    display: flex;
+    justify-content: center;
+}
+
+.itens-content-3 {
+    margin-left: 2vw;
+
+}
+
+.text-content-3 {
+    margin-left: 20px; /* Espaço para o ponto */
+    position: relative; /* Necessário para posicionar o ponto */
+    font-size: 1.5vw;
+    color: #565159;
+}
+
+.text-content-3:before {
+    content: "•"; /* Caractere do ponto */
+    position: absolute; /* Posiciona absolutamente em relação ao conteúdo */
+    left: -20px; /* Posição do ponto em relação ao texto */
+}
+
+.title-content-3-variation {
+    font-weight: bold;
+    font-size: 1.9vw;
+    display: block;
+    justify-content: center;
+}
+
+footer {
+    background: linear-gradient(to right, #31293D, #3d40a5);
+    color: #fff;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 3vw;
+}
+
+.logo img {
+    width: 7vw;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.contact, .social-media {
+    text-align: center;
+}
+
+.contact h4, .social-media h4 {
+    margin-bottom: 10px;
+    font-size: 1.6vw;
+}
+
+.contact p {
+    font-size: 1.2vw;
+}
+
+.contact p, .social-media p {
+    margin: 5px 0;
+}
+
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.social-media h4 {
+    font-size: 1.6vw;
+}
+
+.social-media p {
+    font-size: 1.2vw;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+/* Navbar fixa */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Estilo para o ícone do menu no modo mobile */
+.menu-icon {
+    display: none;
+    color: white;
+    background: none;
+    border: none;
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+
+.nav-links{
+    display: flex;
+}
+
+
+/* Estilo para os links no modo mobile */
+.nav-links.active {
+    display: flex;
+    align-items: flex-start;
+    background-color: #333;
+    position: absolute;
+    top: 65px; /* Ajuste conforme a altura da navbar */
+    right: 0;
+    width: 100%;
+    text-align: left;
+}
+
+.nav-links.active a {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* ... (seu CSS existente) ... */
+
+@media (max-width: 768px) {
+  .top-background {
+      height: auto;
+      padding: 20px;
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .itens-column {
+      margin-bottom: 20px;
+      margin-left: 0;
+      text-align: center;
+  }
+
+  .logo-container {
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .logo-container img {
+      height: 80px;
+  }
+
+  .promo-banner {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+
+  .promo-banner p {
+      font-size: 16px;
+  }
+
+  .venha {
+      font-size: 18px;
+      margin-top: 10px;
+  }
+
+  .nav {
+      flex-direction: column;
+      padding: 10px;
+      height: auto;
+      z-index: 100; /* Posiciona a navbar acima do conteúdo */
+  }
+
+  .nav img {
+      display: block; /* Exibe a logo na versão mobile */
+      margin-bottom: 10px;
+  }
+
+  .spacer {
+      display: none;
+  }
+
+  .nav a {
+      padding: 10px;
+      margin-right: 0;
+      font-size: 16px;
+  }
+
+  .nav a i {
+      margin-right: 5px;
+  }
+
+  .menu-icon {
+      display: block;
+  }
+
+  .nav-links {
+      display: none;
+      flex-direction: column;
+      position: fixed;
+      top: 65px;
+      right: 0;
+      width: 100%;
+      background-color: #333;
+      padding: 20px;
+      text-align: left;
+      z-index: 100; /* Posiciona a navbar acima do conteúdo */
+  }
+
+  .nav-links li {
+      list-style: none;
+      margin-bottom: 10px;
+  }
+
+  .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+  }
+
+  .nav-links a:hover {
+      color: #6C72FF;
+  }
+
+  .nav-links.active {
+      display: flex;
+  }
+
+  .linha {
+      margin-top: 20px;
+      width: 100%;
+  }
+
+  .subtitle {
+      font-size: 18px;
+      margin-top: 20px;
+  }
+
+  .linha-text {
+      width: 100%;
+      margin-top: 20px;
+  }
+
+  .title {
+      font-size: 22px;
+      margin-top: 20px;
+  }
+
+  .content-1 {
+      flex-direction: column;
+      margin: 20px;
+  }
+
+  .content-1 img {
+      width: 100%;
+      margin-top: 20px;
+  }
+
+  .text {
+      font-size: 16px;
+  }
+
+  .content-2 {
+      flex-direction: column-reverse;
+      margin: 20px;
+  }
+
+  .content-2 img {
+      width: 100%;
+      margin-top: 20px;
+  }
+
+  .space-between-content {
+      height: 20px;
+  }
+
+  .contacts {
+      flex-direction: column;
+      height: auto;
+      padding: 20px;
+  }
+
+  .contacts img {
+      width: 50px;
+      height: 50px;
+      margin-left: 0;
+      margin-top: 10px;
+  }
+
+  .column-text {
+      margin-left: 0;
+      margin-bottom: 20px;
+  }
+
+  .content-3 {
+      flex-direction: column;
+      margin: 20px;
+  }
+
+  .content-3 img {
+      width: 100%;
+      margin-top: 20px;
+  }
+
+  .linha-content-3 {
+      width: 100%;
+  }
+
+  .title-content-3 {
+      font-size: 22px;
+      margin-top: 20px;
+  }
+
+  .itens-content-3 {
+      margin-left: 0;
+  }
+
+  .text-content-3 {
+      font-size: 16px;
+  }
+
+  .title-content-3-variation {
+      font-size: 22px;
+      margin-top: 20px;
+  }
+
+  footer {
+      padding: 20px;
+      text-align: center;
+  }
+
+  .footer-container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .logo {
+      margin-bottom: 20px;
+  }
+
+  .logo img {
+      width: 100px;
+  }
+
+  .footer-content {
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+  }
+
+  .contact, .social-media {
+      margin-bottom: 20px;
+  }
+
+  .contact h4, .social-media h4 {
+      font-size: 18px;
+      margin-bottom: 10px;
+  }
+
+  .contact p, .social-media p {
+      font-size: 14px;
+  }
+}
