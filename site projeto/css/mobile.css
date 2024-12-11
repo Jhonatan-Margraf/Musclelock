@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Garamond&display=swap');
+
+@font-face {
+    font-family: 'scanah';
+    /* Name your font family */
+    src: url('../fonts/Scanah.otf');
+    /* Locate the .ttf file within your directory*/
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+    margin: 0;
+    overflow-x: block;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    /* Largura da barra de rolagem */
+    background: transparent;
+    /* Fundo da barra de rolagem */
+}
+
+
+.top-background {
+    /* vazio */
+}
+
+.itens-column {
+    /* vazio */
+}
+
+.logo-container {
+    /* vazio */
+}
+
+.logo-container img {
+    /* vazio */
+}
+
+.brand-name {
+    /* vazio */
+}
+
+.promo-banner {
+    /* vazio */
+}
+
+.promo-banner p {
+    /* vazio */
+}
+
+.venha {
+    /* vazio */
+}
+
+.nav {
+    /* vazio */
+}
+
+#faq {
+    /* vazio */
+}
+
+.nav img {
+    /* vazio */
+}
+
+.spacer {
+    /* vazio */
+}
+
+.nav a {
+    /* vazio */
+}
+
+.nav a i {
+    /* vazio */
+}
+
+.nav a:hover {
+    /* vazio */
+}
+
+.linha {
+    /* vazio */
+}
+
+#about {
+    /* vazio */
+}
+
+.subtitle {
+    /* vazio */
+}
+
+.linha-text {
+    /* vazio */
+}
+
+.title {
+    /* vazio */
+}
+
+.content-1 {
+    /* vazio */
+}
+
+.text {
+    /* vazio */
+}
+
+.content-2 {
+    /* vazio */
+}
+
+#container-text-2 {
+    /* vazio */
+}
+
+.space-between-content {
+    /* vazio */
+}
+
+.contacts {
+    /* vazio */
+}
+
+.contacts p {
+    /* vazio */
+}
+
+.contacts img {
+    /* vazio */
+}
+
+.column-text {
+    /* vazio */
+}
+
+.content-3 {
+    /* vazio */
+}
+
+.content-3 img {
+    /* vazio */
+}
+
+.linha-content-3 {
+    /* vazio */
+}
+
+.title-content-3 {
+    /* vazio */
+}
+
+.itens-content-3 {
+    /* vazio */
+}
+
+.text-content-3 {
+    /* vazio */
+}
+
+.text-content-3:before {
+    /* vazio */
+}
+
+.title-content-3-variation {
+    /* vazio */
+}
+
+footer {
+    /* vazio */
+}
+
+.footer-container {
+    /* vazio */
+}
+
+.logo {
+    /* vazio */
+}
+
+.logo img {
+    /* vazio */
+}
+
+.footer-content {
+    /* vazio */
+}
+
+.contact, .social-media {
+    /* vazio */
+}
+
+.contact h4, .social-media h4 {
+    /* vazio */
+}
+
+.contact p {
+    /* vazio */
+}
+
+.social-media a {
+    /* vazio */
+}
+
+.social-media h4 {
+    /* vazio */
+}
+
+.social-media p {
+    /* vazio */
+}
+
+.social-media a:hover {
+    /* vazio */
+}
+
+.sticky {
+    /* vazio */
+}
+
+.menu-icon {
+    /* vazio */
+}
+
+.nav-links {
+    /* vazio */
+}
+
+.nav-links.active {
+    /* vazio */
+}
+
+.nav-links.active a {
+    /* vazio */
+}

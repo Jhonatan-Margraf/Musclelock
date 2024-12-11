@@ -1,0 +1,510 @@
+
+body, html {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+}
+
+
+::-webkit-scrollbar {
+    width: 0px;
+    /* Largura da barra de rolagem */
+    background: transparent;
+    /* Fundo da barra de rolagem */
+}
+
+/* Estilos para o cabeçalho */
+.top-background {
+    background: linear-gradient(to right, #231932, #6C72FF);
+    color: white;
+    padding: 1vw 0vw;
+    flex-wrap: wrap;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    top: 0;
+}
+
+.itens-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 7vw;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 7.5vw;
+    height: 10vh;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.logo-container img {
+    height: 8vw;
+    /* Ajuste conforme necessário */
+    margin-right: -0.5vw;
+}
+
+.brand-name {
+    font-family: 'scanah', sans-serif;
+    font-size: 2.7vw;
+    margin-left: 10px;
+}
+
+.promo-banner {
+    background-color: #6C72FF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    height: 4.1vw;
+    width: 37vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.promo-banner p {
+    font-size: 3.3vw;
+    /* Tamanho da fonte da frase */
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.venha {
+    font-size: 2.6vw;
+    margin-top: 3vh;
+
+}
+
+/* Estilos para a navegação */
+.nav {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, #231932, #6C72FF);
+    width: 100%;
+    margin-top: -1px;
+    height: 10vh;
+}
+
+#faq{
+    padding-left: 0;
+}
+
+.nav img {
+    height: 3.5vw;
+    margin-left: 2.4vw;
+}
+
+.spacer {
+    flex-grow: 1;
+    /* Cria o espaço vazio */
+}
+
+.nav a {
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 1vw;
+    font-size: calc(5px + 1.1vw);
+    /* Tamanho da fonte */
+}
+
+.nav a i {
+    margin-right: 8px;
+}
+
+.nav a:hover {
+    background-color: #ddd;
+    color: rgb(69, 86, 243);
+}
+
+/* Estilos gerais para seções */
+.linha {
+    margin-top: 3.8vh;
+    background-color: #6C72FF;
+    height: 0.4vh;
+    width: 6vh;
+}
+
+.subtitle {
+    display: flex;
+    justify-content: center;
+    color: #6C72FF;
+    font-size: calc(5px + 2vw);
+    font-weight: bold;
+    margin: 0;
+}
+
+.linha-text {
+    width: 4vw;
+    margin-top: 3.8vh;
+    margin-left: 0vw;
+    background-color: #000;
+    height: 0.2vh;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.9vw;
+}
+
+.sobre_content {
+    display: flex;
+    margin: 5vw;
+    justify-content: space-around;
+}
+
+.text {
+
+    font-size: 1.5vw;
+    color: #565159;
+}
+
+/* Estilos para a seção "Sobre o Projeto" */
+.sobre_content-2 {
+    display: flex;
+    margin: 5vw;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+
+}
+
+#sobre-text-2 {
+    padding-left: 3vw;
+}
+
+.space-between-content {
+    height: 4vh;
+}
+
+/* Estilos para a seção de contatos */
+.contacts {
+    background: linear-gradient(to right, #31293D, #3d40a5);
+    width: 100vw;
+    height: 35vh;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contacts p {
+    font-size: 2.5vw;
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    margin-bottom: 0vh;
+}
+
+
+.contacts img {
+    height: 5vw;
+    width: 5vw;
+    margin-left: 7vw;
+    margin-top: 10vh;
+}
+
+.contacts a { /* Estilos para os links de contato */
+    display: block;
+}
+
+.column-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12.5vw;
+}
+
+/* Estilos para as seções de informação e FAQ */
+.informacoes {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.informacoes img {
+    height: 23vw;
+}
+
+.linha-informacoes {
+    width: 4vw;
+    margin-top: 3.8vh;
+    background-color: #000;
+    height: 0.2vh;
+}
+
+.title-informacoes {
+    font-weight: bold;
+    font-size: 1.9vw;
+    display: flex;
+    justify-content: center;
+}
+
+.itens-informacoes {
+    margin-left: 2vw;
+}
+
+.text-informacoes {
+    margin-bottom: 4vw;
+    margin-left: 20px; /* Espaço para o ponto */
+    position: relative; /* Necessário para posicionar o ponto */
+    font-size: 1.5vw;
+    color: #565159;
+}
+
+.faq-content {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.text-informacoes:before {
+    content: "•"; /* Caractere do ponto */
+    position: absolute; /* Posiciona absolutamente em relação ao conteúdo */
+    left: -20px; /* Posição do ponto em relação ao texto */
+}
+
+.title-faq-content {
+    font-weight: bold;
+    font-size: 1.9vw;
+    display: block;
+    justify-content: center;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background: linear-gradient(to right, #31293D, #3d40a5);
+    color: #fff;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 3vw;
+}
+
+.logo img {
+    width: 7vw;
+}
+
+footer {
+    font-size: 1.2vw;
+}
+
+footer hr{
+    width: 90%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    width: 68%;
+}
+
+footer a{
+    color:#fff;
+}
+
+#telefone_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3vh;
+}
+
+#email_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3vh;
+}
+
+#whatsapp_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#maps_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3vh;
+}
+
+.contact, .social-media {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 28vw;
+    
+}
+
+
+.contact h4, .social-media h4 {
+    margin-bottom: 3vh;
+    font-size: 1.6vw;
+}
+
+.contact p {
+    font-size: 1.2vw;
+}
+
+.contact p, .social-media p {
+    margin: 5px 0;
+}
+
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.social-media h4 {
+    font-size: 1.6vw;
+}
+
+.social-media p {
+    font-size: 1.2vw;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+.social-media ul { /* Estilos para a lista de redes sociais */
+    list-style: none;
+    padding: 0;
+}
+
+.social-media li {
+    display: inline;
+    margin: 0 5px;
+}
+
+/* Navbar fixa */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.stickydesactive {
+    display: none;
+}
+
+/* Estilo para o ícone do menu no modo mobile */
+.menu-icon {
+    display: none;
+    color: white;
+    background: none;
+    border: none;
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+
+.nav-links{
+    display: flex;
+}
+
+
+/* Estilo para os links no modo mobile */
+.nav-links.active {
+    display: flex;
+    align-items: flex-start;
+    background-color: #333;
+    position: absolute;
+    top: 65px; /* Ajuste conforme a altura da navbar */
+    right: 0;
+    width: 100%;
+    text-align: left;
+}
+
+.nav-links.active a {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* Estilos adicionais para o navbar */
+}
+
+.navbar.hide {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+/* ... (seu CSS existente) ... */
+
+@media screen and (max-width: 500px) {
+    .top-background{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: flex-start;
+        padding-top: 15%;
+    }
+
+    .itens-column{
+        margin-left: 0%;
+    }
+    
+
+    .logo-container img {
+        height: 32vw;
+        margin-right: -0.5vw;
+    }
+    
+    .logo-container{
+        margin-bottom: 35%;
+    }
+
+    .promo-banner{
+        height: 6.1vw;
+        width: 45vw
+    }
+
+    .brand-name {
+        display: none;
+    }
+
+    .venha {
+        font-size: 3.6vw;
+    }
+    
+}
