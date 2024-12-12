@@ -1,5 +1,5 @@
-
-body, html {
+body,
+html {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -8,7 +8,7 @@ body, html {
     scroll-behavior: smooth;
 }
 
-header{
+header {
     width: 100%;
 }
 
@@ -87,6 +87,10 @@ header{
 
 }
 
+.arrow {
+    display: none;
+}
+
 /* Estilos para a navegação */
 .nav {
     display: flex;
@@ -97,7 +101,7 @@ header{
     height: 10vh;
 }
 
-#faq{
+#faq {
     padding-left: 0;
 }
 
@@ -162,11 +166,7 @@ header{
     font-size: 1.9vw;
 }
 
-.sobre_content {
-    display: flex;
-    margin: 5vw;
-    justify-content: space-around;
-}
+
 
 .text {
 
@@ -174,7 +174,31 @@ header{
     color: #565159;
 }
 
-/* Estilos para a seção "Sobre o Projeto" */
+.linha-text-content-2 {
+    width: 4vw;
+    margin-top: 3.8vh;
+    margin-left: 0vw;
+    background-color: #000;
+    height: 0.2vh;
+}
+
+.title-content-2 {
+    font-weight: bold;
+    font-size: 1.9vw;
+}
+
+.text-content-2 {
+
+    font-size: 1.5vw;
+    color: #565159;
+}
+
+.sobre_content {
+    display: flex;
+    margin: 5vw;
+    justify-content: space-around;
+}
+
 .sobre_content-2 {
     display: flex;
     margin: 5vw;
@@ -189,6 +213,10 @@ header{
 
 .space-between-content {
     height: 4vh;
+}
+
+.linha-meio {
+    width: 100%;
 }
 
 /* Estilos para a seção de contatos */
@@ -216,7 +244,8 @@ header{
     margin-top: 10vh;
 }
 
-.contacts a { /* Estilos para os links de contato */
+.contacts a {
+    /* Estilos para os links de contato */
     display: block;
 }
 
@@ -236,6 +265,10 @@ header{
 
 .informacoes img {
     height: 23vw;
+}
+
+.article-informacoes{
+    width: 50vw;
 }
 
 .linha-informacoes {
@@ -258,8 +291,15 @@ header{
 
 .text-informacoes {
     margin-bottom: 4vw;
-    margin-left: 20px; /* Espaço para o ponto */
-    position: relative; /* Necessário para posicionar o ponto */
+    margin-left: 20px;
+    /* Espaço para o ponto */
+    position: relative;
+    /* Necessário para posicionar o ponto */
+    font-size: 1.5vw;
+    color: #565159;
+}
+
+.text-informacoes{
     font-size: 1.5vw;
     color: #565159;
 }
@@ -271,11 +311,6 @@ header{
     justify-content: space-around;
 }
 
-.text-informacoes:before {
-    content: "•"; /* Caractere do ponto */
-    position: absolute; /* Posiciona absolutamente em relação ao conteúdo */
-    left: -20px; /* Posição do ponto em relação ao texto */
-}
 
 .title-faq-content {
     font-weight: bold;
@@ -315,7 +350,7 @@ footer {
     font-size: 1.2vw;
 }
 
-footer hr{
+footer hr {
     width: 90%;
 }
 
@@ -325,11 +360,11 @@ footer hr{
     width: 68%;
 }
 
-footer a{
-    color:#fff;
+footer a {
+    color: #fff;
 }
 
-#telefone_footer{
+#telefone_footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -337,7 +372,7 @@ footer a{
     margin-bottom: 3vh;
 }
 
-#email_footer{
+#email_footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -345,7 +380,7 @@ footer a{
     margin-bottom: 3vh;
 }
 
-#whatsapp_footer{
+#whatsapp_footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -353,7 +388,7 @@ footer a{
 
 }
 
-#maps_footer{
+#maps_footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -361,17 +396,19 @@ footer a{
     margin-bottom: 3vh;
 }
 
-.contact, .social-media {
+.contact,
+.social-media {
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 28vw;
-    
+
 }
 
 
-.contact h4, .social-media h4 {
+.contact h4,
+.social-media h4 {
     margin-bottom: 3vh;
     font-size: 1.6vw;
 }
@@ -380,7 +417,8 @@ footer a{
     font-size: 1.2vw;
 }
 
-.contact p, .social-media p {
+.contact p,
+.social-media p {
     margin: 5px 0;
 }
 
@@ -402,7 +440,8 @@ footer a{
     text-decoration: underline;
 }
 
-.social-media ul { /* Estilos para a lista de redes sociais */
+.social-media ul {
+    /* Estilos para a lista de redes sociais */
     list-style: none;
     padding: 0;
 }
@@ -434,7 +473,7 @@ footer a{
     cursor: pointer;
 }
 
-.nav-links{
+.nav-links {
     display: flex;
 }
 
@@ -445,7 +484,8 @@ footer a{
     align-items: flex-start;
     background-color: #333;
     position: absolute;
-    top: 65px; /* Ajuste conforme a altura da navbar */
+    top: 65px;
+    /* Ajuste conforme a altura da navbar */
     right: 0;
     width: 100%;
     text-align: left;
@@ -458,21 +498,30 @@ footer a{
 }
 
 .navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  /* Estilos adicionais para o navbar */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* Estilos adicionais para o navbar */
 }
 
 .navbar.hide {
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
 }
+
+.br-mobile {}
+
+.image-content {
+    width: 40vw;
+    height: 25vw;
+}
+
 /* ... (seu CSS existente) ... */
 
 @media screen and (max-width: 500px) {
-    .top-background{
+    .top-background {
+        height: 100vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -480,23 +529,27 @@ footer a{
         padding-top: 15%;
     }
 
-    .itens-column{
+    .itens-column {
         margin-left: 0%;
     }
-    
+
 
     .logo-container img {
-        height: 32vw;
+        height: 45vw;
         margin-right: -0.5vw;
     }
-    
-    .logo-container{
-        margin-bottom: 35%;
+
+    .logo-container {
+        margin-bottom: 42%;
     }
 
-    .promo-banner{
-        height: 6.1vw;
-        width: 45vw
+    .promo-banner {
+        height: 8.1vw;
+        width: 57vw
+    }
+
+    .promo-banner p {
+        font-size: 4.7vw;
     }
 
     .brand-name {
@@ -504,7 +557,125 @@ footer a{
     }
 
     .venha {
-        font-size: 3.6vw;
+        font-size: 4vw;
     }
-    
+
+    .arrow {
+        display: block;
+        height: 7vw;
+        margin-top: 14vw;
+    }
+
+    .nav {
+        display: none;
+    }
+
+
+    .subtitle {
+        font-size: 7vw;
+        margin-bottom: 15vw;
+    }
+
+    .sobre_content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sobre_content-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* .linha-text {
+        width: 16vw;
+        height: 0.3vh;
+    } */
+
+    .linha-text {
+        display: none;
+    }
+
+
+    .title {
+        font-size: 6.8vw;
+        margin-top: 3vw;
+        margin-bottom: 4vw;
+    }
+
+    .text {
+        font-size: 5.8vw;
+        margin-top: 0;
+    }
+
+    br {
+        display: none;
+    }
+
+    .image-content {
+        width: 89vw;
+        height: 63vw;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+
+    .linha-text-content-2 {
+        display: none;
+    }
+
+    .title-content-2 {
+        font-size: 6.8vw;
+        margin-top: 3vw;
+        margin-bottom: 4vw;
+        text-align: end;
+    }
+
+    .text-content-2 {
+        font-size: 5.8vw;
+        margin-top: 0;
+        text-align: end;
+    }
+
+    .linha-meio {
+        height: 7vw;
+    }
+
+    .informacoes{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .linha-informacoes{
+        display: none;
+    }
+
+    .title-informacoes{
+        font-size: 6.8vw;
+        margin-top: 3vw;
+        margin-bottom: 4vw;
+    }
+
+    .text-informacoes{
+        font-size: 5vw;
+        margin-top: 0;
+        max-width: 90%;
+    }
+
+    .article-informacoes{
+        width: 100%;
+        margin-bottom: 10vw;
+    }
+
+    .mobile-none{
+        display: none;
+    }
+
+
+
+
+
+
+
+
 }
