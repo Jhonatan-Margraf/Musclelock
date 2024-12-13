@@ -102,7 +102,7 @@ header {
     height: 10vh;
 }
 
-#faq {
+.faq {
     padding-left: 0;
 }
 
@@ -151,7 +151,7 @@ header {
     color: #6C72FF;
     font-size: calc(5px + 2vw);
     font-weight: bold;
-    margin: 0;
+    margin-bottom: 5vw;
 }
 
 .linha-text {
@@ -173,6 +173,7 @@ header {
 
     font-size: 1.5vw;
     color: #565159;
+    max-width: 35vw;
 }
 
 .linha-text-content-2 {
@@ -192,6 +193,7 @@ header {
 
     font-size: 1.5vw;
     color: #565159;
+    max-width: 35vw;
 }
 
 .sobre_content {
@@ -298,12 +300,10 @@ header {
     /* Necessário para posicionar o ponto */
     font-size: 1.5vw;
     color: #565159;
+    max-width: 40vw;
+
 }
 
-.text-informacoes {
-    font-size: 1.5vw;
-    color: #565159;
-}
 
 .faq-content {
     display: flex;
@@ -312,12 +312,23 @@ header {
     justify-content: space-around;
 }
 
+/* .FAQ{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.FAQ p {
+    text-align: center;
+}
+
 
 .title-faq-content {
     font-weight: bold;
     font-size: 1.9vw;
     display: block;
-    justify-content: center;
+    max-width: 30vw;
+    text-align: center;
 }
 
 /* Estilos para o rodapé */
@@ -496,7 +507,7 @@ footer a {
 .img-social-alternative {
     width: 3.6vw;
     margin-top: 0.2vw;
-    
+
 }
 
 .white-ball {
@@ -577,6 +588,13 @@ footer a {
     width: 40vw;
     height: 25vw;
 }
+
+.faq-itens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* ... (seu CSS existente) ... */
 
 @media screen and (max-width: 500px) {
@@ -667,6 +685,7 @@ footer a {
     .text {
         font-size: 5.8vw;
         margin-top: 0;
+        max-width: 88vw;
     }
 
     br {
@@ -695,6 +714,7 @@ footer a {
         font-size: 5.8vw;
         margin-top: 0;
         text-align: end;
+        max-width: 88vw;
     }
 
     .linha-meio {
@@ -739,10 +759,10 @@ footer a {
     }
 
     .title-faq-content {
-        text-align: start;
         font-size: 6.8vw;
         margin-top: 5vw;
         margin-bottom: 4vw;
+        max-width: 100%;
     }
 
     footer {
@@ -849,18 +869,18 @@ footer a {
     .img-social {
         width: 10vw;
     }
-    
+
     .img-social-alternative {
         width: 9vw;
         margin-top: 0.4vw;
-        
+
     }
 
     footer hr {
         margin-top: 10vw;
     }
 
-    .mobile-copiright{
+    .mobile-copiright {
         font-size: 4vw;
     }
 
