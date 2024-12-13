@@ -57,10 +57,11 @@ header {
 }
 
 .brand-name {
-    font-family: 'scanah', sans-serif;
     font-size: 2.7vw;
     margin-left: 10px;
 }
+
+
 
 .promo-banner {
     background-color: #6C72FF;
@@ -267,7 +268,7 @@ header {
     height: 23vw;
 }
 
-.article-informacoes{
+.article-informacoes {
     width: 50vw;
 }
 
@@ -299,7 +300,7 @@ header {
     color: #565159;
 }
 
-.text-informacoes{
+.text-informacoes {
     font-size: 1.5vw;
     color: #565159;
 }
@@ -324,7 +325,6 @@ footer {
     background: linear-gradient(to right, #31293D, #3d40a5);
     color: #fff;
     padding: 20px 0;
-    font-family: Arial, sans-serif;
 }
 
 .footer-container {
@@ -333,6 +333,10 @@ footer {
     align-items: center;
     margin: 0 auto;
     padding: 0 20px;
+}
+
+.brand-name-footer {
+    font-size: 2.7vw;
 }
 
 .logo {
@@ -380,13 +384,6 @@ footer a {
     margin-bottom: 3vh;
 }
 
-#whatsapp_footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-
-}
 
 #maps_footer {
     display: flex;
@@ -396,12 +393,47 @@ footer a {
     margin-bottom: 3vh;
 }
 
+#whatsapp_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#telefone_footer img {
+    transform: rotateY(180deg);
+    margin-right: 1vw;
+    height: 1.5vw;
+    width: 1.5vw;
+}
+
+#email_footer img {
+    margin-right: 1vw;
+    height: 1.5vw;
+    width: 1.5vw;
+}
+
+
+#maps_footer img {
+    margin-right: 1vw;
+    height: 1.5vw;
+    width: 1.5vw;
+}
+
+#whatsapp_footer img {
+    margin-right: 1vw;
+    height: 1.5vw;
+    width: 1.5vw;
+
+}
+
 .contact,
 .social-media {
     text-align: center;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     width: 28vw;
 
 }
@@ -451,6 +483,30 @@ footer a {
     margin: 0 5px;
 }
 
+.social-media-space {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.img-social {
+    width: 4vw;
+}
+
+.img-social-alternative {
+    width: 3.6vw;
+    margin-top: 0.2vw;
+    
+}
+
+.white-ball {
+    height: 4vw;
+    width: 4vw;
+    border-radius: 50%;
+    background-color: white;
+    margin-right: 2vw;
+}
+
 /* Navbar fixa */
 .sticky {
     position: fixed;
@@ -477,18 +533,23 @@ footer a {
     display: flex;
 }
 
-
 /* Estilo para os links no modo mobile */
 .nav-links.active {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     background-color: #333;
     position: absolute;
     top: 65px;
     /* Ajuste conforme a altura da navbar */
     right: 0;
     width: 100%;
-    text-align: left;
+    height: 80%;
+}
+
+.nav-links button {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 2px solid white;
+    margin-right: 10px;
 }
 
 .nav-links.active a {
@@ -510,13 +571,12 @@ footer a {
     transition: opacity 0.3s ease-in-out;
 }
 
-.br-mobile {}
+/* .br-mobile {} */
 
 .image-content {
     width: 40vw;
     height: 25vw;
 }
-
 /* ... (seu CSS existente) ... */
 
 @media screen and (max-width: 500px) {
@@ -641,41 +701,191 @@ footer a {
         height: 7vw;
     }
 
-    .informacoes{
+    .informacoes {
         display: flex;
         flex-direction: column;
     }
 
-    .linha-informacoes{
+    .linha-informacoes {
         display: none;
     }
 
-    .title-informacoes{
+    .title-informacoes {
         font-size: 6.8vw;
         margin-top: 3vw;
         margin-bottom: 4vw;
     }
 
-    .text-informacoes{
+    .text-informacoes {
         font-size: 5vw;
         margin-top: 0;
         max-width: 90%;
     }
 
-    .article-informacoes{
+    .article-informacoes {
         width: 100%;
         margin-bottom: 10vw;
+
     }
 
-    .mobile-none{
+    .mobile-none {
         display: none;
     }
 
+    .faq-content {
+        display: flex;
+        flex-direction: column;
+        margin: 5vw;
+    }
+
+    .title-faq-content {
+        text-align: start;
+        font-size: 6.8vw;
+        margin-top: 5vw;
+        margin-bottom: 4vw;
+    }
+
+    footer {
+        height: 200vw;
+        padding: 13vw 0;
+    }
+
+    footer a {
+        font-size: 4vw;
+        width: 49vw;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-content {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo img {
+        width: 25vw;
+    }
+
+    .brand-name-footer {
+        font-size: 9vw;
+        margin-top: 2vw;
+    }
+
+    #title-footer {
+        font-size: 3.5vw;
+        margin-top: 5vw;
+        margin-bottom: 10vw;
+    }
+
+    .contact {
+        align-items: center;
+        margin-bottom: 10vw;
+    }
+
+    .contact h4 {
+        font-size: 5.5vw;
+        margin-top: 0;
+    }
+
+    .social-media {
+        width: 45vw;
+    }
+
+    .social-media h4 {
+        font-size: 5.5vw;
+        margin-top: 0;
+
+    }
+
+    #telefone_footer img {
+        transform: rotateY(180deg);
+        margin-right: 1vw;
+        height: 7.5vw;
+        width: 7.5vw;
+    }
+
+    #email_footer img {
+        margin-right: 1vw;
+        height: 7.5vw;
+        width: 7.5vw;
+    }
 
 
+    #maps_footer img {
+        margin-right: 1vw;
+        height: 7.5vw;
+        width: 7.5vw;
+    }
+
+    #whatsapp_footer img {
+        margin-right: 1vw;
+        height: 7.5vw;
+        width: 7.5vw;
+
+    }
+
+    #telefone_footer {
+        margin-bottom: 10vw;
+    }
+
+    #email_footer {
+        margin-bottom: 10vw;
+    }
 
 
+    #maps_footer {
+        margin-bottom: 10vw;
+    }
 
+    .white-ball {
+        height: 10vw;
+        width: 10vw;
+    }
+
+    .img-social {
+        width: 10vw;
+    }
+    
+    .img-social-alternative {
+        width: 9vw;
+        margin-top: 0.4vw;
+        
+    }
+
+    footer hr {
+        margin-top: 10vw;
+    }
+
+    .mobile-copiright{
+        font-size: 4vw;
+    }
 
 
 }
+
+/* #hamburguer {
+    display: none;
+}
+.activedHamburguer {
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .nav-links {
+        display: none;
+    }
+
+    #hamburguer {
+        cursor: pointer;
+        border-radius: 100%;
+        display: flex;
+        background-color: red;
+        border: none;
+        padding: 8px;
+        margin-right: 8px;
+    }
+} */

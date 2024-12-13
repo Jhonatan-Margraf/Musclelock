@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Garamond&display=swap');
+
+@font-face {
+    font-family: 'scanah';
+    /* Name your font family */
+    src: url('../fonts/Scanah.otf');
+    /* Locate the .ttf file within your directory*/
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+    overflow-x: block;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    /* Largura da barra de rolagem */
+    background: transparent;
+    /* Fundo da barra de rolagem */
+}
+
+.top-background {
+    background: linear-gradient(to right, #31293D, #3d40a5);
+    color: white;
+    padding: 1vw 0vw;
+    flex-wrap: wrap;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.itens-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 6vw;
+    margin-left: 7vw;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    height: 10vh;
+    justify-content: flex-start;
+}
+
+.logo-container img {
+    height: 80px;
+    /* Ajuste conforme necessário */
+    margin-right: -0.5vw;
+}
+
+.brand-name {
+    font-family: 'scanah', sans-serif;
+    /* Use the font family */
+    font-size: 2.4rem;
+    /* Ajuste conforme necessário */
+    margin-left: 10px;
+    /* Espaço entre o logo e o nome */
+}
+
+.promo-banner {
+    background-color: #6C72FF;
+    /* Cor de fundo diferente */
+    padding: 10px 20px;
+    border-radius: 5px;
+    height: 4.1vw;
+    width: 37vw;
+}
+
+.promo-banner p {
+    margin-top: 0.5vh;
+    font-size: 2.3rem;
+    /* Tamanho da fonte da frase */
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.venha {
+    font-size: 2.4rem;
+    margin-top: 3vh;
+
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, #31293D, #3d40a5);
+    /* Adiciona espaçamento horizontal */
+    width: 100%;
+}
+
+#faq{
+    padding-left: 0;
+}
+
+.nav img {
+    height: 65px;
+    margin-left: 2.4vh;
+}
+
+.spacer {
+    flex-grow: 1;
+    /* Cria o espaço vazio */
+}
+
+.nav a {
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 1vw;
+    font-size: 1rem;
+    /* Tamanho da fonte */
+}
+
+.nav a i {
+    margin-right: 8px;
+}
+
+.nav a:hover {
+    background-color: #ddd;
+    color: rgb(69, 86, 243);
+}
+
+.linha {
+    margin-top: 3.8vh;
+    background-color: #6C72FF;
+    height: 0.4vh;
+    width: 6vh;
+}
+
+#about {
+    margin-bottom: 5vw;
+}
+
+.subtitle {
+    display: flex;
+    justify-content: center;
+    color: #6C72FF;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.linha-text {
+    width: 4vw;
+    margin-top: 3.8vh;
+    margin-left: 0vw;
+    background-color: #000;
+    height: 0.2vh;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.9rem;
+}
+
+.content-1 {
+    display: flex;
+    margin: 5vw;
+    justify-content: space-around;
+}
+
+.text {
+
+    font-size: 1.5rem;
+    color: #565159;
+}
+
+.content-2 {
+    display: flex;
+    margin: 5vw;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+
+}
+
+#container-text-2 {
+    padding-left: 3vw;
+}
+
+.space-between-content {
+    height: 8vh;
+}
+
+.contacts {
+    
+    background: linear-gradient(to right, #31293D, #3d40a5);
+    width: 100vw;
+    height: 35vh;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.contacts p {
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    margin-bottom: 0vh;
+}
+
+
+.contacts img {
+    height: 5vw;
+    width: 5vw;
+    margin-left: 7vw;
+    margin-top: 10vh;
+}
+
+.column-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12.5vw;
+}
+
+.content-3 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.content-3 img {
+    height: 23vw;
+}
+
+.linha-content-3 {
+    width: 4vw;
+    margin-top: 3.8vh;
+    background-color: #000;
+    height: 0.2vh;
+}
+
+.title-content-3 {
+
+    font-weight: bold;
+    font-size: 1.9rem;
+    display: flex;
+    justify-content: center;
+}
+
+.itens-content-3 {
+    margin-left: 2vw;
+
+}
+
+.text-content-3 {
+    margin-left: 20px; /* Espaço para o ponto */
+    position: relative; /* Necessário para posicionar o ponto */
+    font-size: 1.5rem;
+    color: #565159;
+}
+
+.text-content-3:before {
+    content: "•"; /* Caractere do ponto */
+    position: absolute; /* Posiciona absolutamente em relação ao conteúdo */
+    left: -20px; /* Posição do ponto em relação ao texto */
+}
+
+.title-content-3-variation {
+    font-weight: bold;
+    font-size: 1.9rem;
+    display: block;
+    justify-content: center;
+}
+
+footer {
+    background: linear-gradient(to right, #31293D, #3d40a5);
+    color: #fff;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 3vw;
+}
+
+.logo img {
+    width: 7vw;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.contact, .social-media {
+    text-align: center;
+}
+
+.contact h4, .social-media h4 {
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+}
+
+.contact p {
+    font-size: 1.2rem;
+}
+
+.contact p, .social-media p {
+    margin: 5px 0;
+}
+
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.social-media h4 {
+    font-size: 1.6rem;
+}
+
+.social-media p {
+    font-size: 1.2rem;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
