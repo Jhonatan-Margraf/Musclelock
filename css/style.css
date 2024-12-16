@@ -594,6 +594,10 @@ footer a {
     width: 50vw;
 }
 
+.image-content-top{
+    width: 50vw;
+}
+
 .faq-itens {
     display: flex;
     flex-direction: column;
@@ -696,10 +700,14 @@ footer a {
         display: none;
     }
 
-    .image-content {
+    .image-content-top{
         width: 100vw;
         margin-top: 5vw;
         margin-bottom: 5vw;
+    }
+
+    .image-content {
+        width: 87vw;
     }
 
     .linha-text-content-2 {
@@ -890,7 +898,7 @@ footer a {
 
 }
 
-/* #hamburguer {
+#hamburguer {
     display: none;
 }
 .activedHamburguer {
@@ -911,4 +919,4 @@ footer a {
         padding: 8px;
         margin-right: 8px;
     }
-} */
+}
